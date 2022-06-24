@@ -9,7 +9,7 @@ public class LoggerManager {
     private Logger logger;
     private static LoggerManager instance;
 
-    public LoggerManager() {
+    private LoggerManager() {
         initialize();
     }
 
