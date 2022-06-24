@@ -60,4 +60,8 @@ public class Environment {
     public String getProjectEndPoint() {
         return getEnvironmentSetting("projectEndPoint");
     }
+
+    public String getProjectByIdEndpoint() {
+        return getEnvironmentSetting("projectByIdEndpoint");
+    }
 }
